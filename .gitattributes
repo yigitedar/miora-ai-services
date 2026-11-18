@@ -1,0 +1,2 @@
+# Keep the language bar from counting notebooks (Python is the actual code)
+*.ipynb linguist-detectable=false
