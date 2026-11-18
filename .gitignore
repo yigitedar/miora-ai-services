@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Model weights (too large for git, download from Releases)
+*.h5
+*.keras
+
+# Never commit patient or personal documents
+*.pdf
+uploads/
+
+# Service output and OS files
+tahmin_sonucu.json
+desktop.ini
+.DS_Store
+__MACOSX/
+
+# Secrets
+.env
